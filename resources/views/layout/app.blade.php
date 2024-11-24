@@ -10,8 +10,9 @@
 </head>
 
 <body class="min-h-screen bg-gray-200">
-    @include('layout.navbar')
-    <div class="p-8">
+
+    @include('layout.components.navbar')
+    <div class="flex justify-center items-center text-center p-8 w-full">
         @yield('content')
     </div>
     @vite('resources/js/app.js')
