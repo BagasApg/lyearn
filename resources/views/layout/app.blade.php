@@ -14,14 +14,8 @@
     <div class="p-8">
         @yield('content')
     </div>
-
-
-    <script>
-        
-    </script>
+    @vite('resources/js/app.js')
 </body>
-
-@vite('resources/js/app.js')
 
 
 </html>

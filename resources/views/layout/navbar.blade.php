@@ -11,7 +11,7 @@
     
     <div class="flex-none gap-1">
         <a href=""
-            class="btn btn-outline border-black text-lg text-black hover:bg-gray-900 hover:border-gray-900 hover:text-gray-100">Log
+            class="btn btn-outline border-black text-lg text-black bg-gray-200 hover:bg-gray-900 hover:border-gray-900 hover:text-gray-100">Log
             In</a>
         <a href="" class="btn text-lg text-white">Register</a>
     </div>
