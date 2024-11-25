@@ -13,25 +13,25 @@
         <div class="text-center px-64 pb-16 mb-6">
             <h1 class="text-5xl pb-10 text-black" id="kelas">We currently have</h1>
             <div class="flex justify-center gap-16 pb-10 z-10 relative" id="stats-cards">
-                <div class="card w-auto bg-base-100" data-number="200" data-aos="fade-down" data-aos-duration="1000"
+                <div class="card w-auto bg-neutral" data-number="200" data-aos="fade-down" data-aos-duration="1000"
                     data-aos-once="true">
                     <div class="card-body">
-                        <h1 class="text-3xl">Students</h1>
-                        <h1 class="text-5xl font-bold">200</p>
+                        <h1 class="text-3xl text-gray-100">Students</h1>
+                        <h1 class="text-5xl text-gray-100 font-bold">200</p>
                     </div>
                 </div>
-                <div class="card w-auto bg-base-100" data-number="100" data-aos="fade-down"data-aos-duration="1000"
+                <div class="card w-auto bg-neutral" data-number="100" data-aos="fade-down"data-aos-duration="1000"
                     data-aos-delay="200" data-aos-once="true">
                     <div class="card-body">
-                        <h1 class="text-3xl" id="titips">Students</h1>
-                        <h1 class="text-5xl font-bold">100</p>
+                        <h1 class="text-3xl text-gray-100">Students</h1>
+                        <h1 class="text-5xl text-gray-100 font-bold">100</p>
                     </div>
                 </div>
-                <div class="card w-auto bg-base-100" data-number="750" data-aos="fade-down" data-aos-duration="1000"
+                <div class="card w-auto bg-neutral" data-number="750" data-aos="fade-down" data-aos-duration="1000"
                     data-aos-delay="400" data-aos-once="true">
                     <div class="card-body">
-                        <h1 class="text-3xl">Students</h1>
-                        <h1 class="text-5xl font-bold">750</p>
+                        <h1 class="text-3xl text-gray-100">Students</h1>
+                        <h1 class="text-5xl text-gray-100 font-bold">750</p>
                     </div>
                 </div>
             </div>

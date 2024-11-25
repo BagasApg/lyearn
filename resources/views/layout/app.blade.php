@@ -12,7 +12,7 @@
 <body class="min-h-screen bg-gray-200">
 
     @include('layout.components.navbar')
-    <div class="flex justify-center items-center text-center p-8 w-full">
+    <div class="flex justify-center items-center text-center p-8 py-28 w-full max-w-full min-h-screen">
         @yield('content')
     </div>
     @vite('resources/js/app.js')

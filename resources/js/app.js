@@ -19,6 +19,7 @@ document.addEventListener("aos:in", ({ detail }) => {
             let max = stat.dataset.number;
             let duration = Math.floor(interval / max);
             // console.log(stat);
+            console.log(duration)
             let counter = setInterval(() => {
                 iterator += 1;
                 stat.firstElementChild.lastElementChild.textContent = iterator;
