@@ -6,31 +6,30 @@ AOS.init();
 // stat counting
 
 let interval = 3000;
-const stats = document.getElementById("stats-cards").children;
+const stats = document.querySelectorAll('.kelas');
 
 let isViewed = false;
 // console.log(title);
 
 document.addEventListener("aos:in", ({ detail }) => {
-    console.log(detail.classList.contains("stats-card"));
+    console.log(detail.firstElementChild.lastElementChild);
     if (!isViewed) {
         for (let stat of stats) {
-            let iterator = 0;
-            let max = stat.dataset.number;
-            let duration = Math.floor(interval / max);
-            // console.log(stat);
-            console.log(duration)
-            let counter = setInterval(() => {
-                iterator += 1;
-                stat.firstElementChild.lastElementChild.textContent = iterator;
-                if (iterator == max) {
-                    clearInterval(counter);
-                }
-            }, duration);
+            
+                let startValue = 0;
+                let endValue = parseInt(stat.getAttribute("data-number"));
+                let duration = Math.floor(interval / endValue);
+                let counter = setInterval(function() {
+                    startValue += 1;
+                    stat.textContent = startValue;
+                    if (startValue == endValue) {
+                        clearInterval(counter);
+                    }
+                }, duration);
         }
     }
 
-    if (detail.classList.contains("stats-card")) {
+    if (detail.classList.contains("kelas")) {
         isViewed = true;
     }
 });
