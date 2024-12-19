@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('content')
-    <div class="">
+    <div class="flex justify-center items-center text-center p-8 py-28 w-full max-w-full max-h-screen">
         <div class="card w-[400px] glass">
 
             <div class="card-body">
@@ -20,13 +20,15 @@
                     <input type="text" name="username" id="username"
                         class="glass px-3 py-1 rounded-md focus:shadow-[0_0_0.25rem_0.05rem_rgba(17,24,39,0.1)] border-gray-900 focus:outline-none focus:ring-1 focus:ring-base-100">
                 </div>
-                <div class="form-control">
+                <div class="form-control pb-4">
                     <label for="password" class="text-start pb-2">Password</label>
                     <input type="password" name="password" id="password"
                         class="glass px-3 py-1 rounded-md focus:shadow-[0_0_0.25rem_0.05rem_rgba(17,24,39,0.1)] border-gray-900 focus:outline-none focus:ring-1 focus:ring-base-100">
 
                 </div>
-                <div class="login-button"></div>
+                <div class="login-button">
+                    <div class="btn bg-gray-900 text-white w-full btn-md hover:bg-black">Sign In</div>
+                </div>
             </div>
         </div>
     </div>
