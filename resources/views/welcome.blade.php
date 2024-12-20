@@ -5,14 +5,23 @@
 
         <div class="">
 
-            <div class="welcome flex justify-center pb-16 mb-6">
+            <div id="welcome" class="flex justify-center pb-48 mb-6">
                 <div class="flex flex-col text-center items-center justify-center gap-3">
                     <h1 class="text-5xl text-black font-bold">Welcome.</h1>
                     <h2 class="text-3xl text-black">to the best learning platform you ever across to.</h2>
                     <img src="{{ asset('assets/welcome.jpg') }}" />
                 </div>
             </div>
-            <div class="text-center px-64 pb-16 mb-6">
+            <div id="brief-desc" class="flex flex-row justify-evenly text-center items-center pb-48">
+                <div class="">
+                    <h1 class="text-6xl text-start jetbrains-mono">What is <br>Lyearn?_</h1>
+                </div>
+                <div class="w-1/2 ">
+                    <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iste assumenda quis a, provident
+                        nostrum, distinctio voluptatem, cum in dolorem incidunt ipsum dolor expedita.</p>
+                </div>
+            </div>
+            <div id="stats" class="text-center px-64 pb-[5rem] mb-6">
                 <h1 class="text-5xl pb-10 text-black">We currently have</h1>
                 <div class="flex justify-center gap-16 pb-10 z-10 relative" id="stats-cards">
                     <div class="card w-auto bg-neutral" data-number="200" data-aos="fade-down" data-aos-duration="1000"
