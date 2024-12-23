@@ -12,9 +12,7 @@
 <body class="min-h-screen bg-gray-200">
 
     @include('layout.components.navbar')
-    <div class="">
-        @yield('content')
-    </div>
+    @yield('content')
     @vite('resources/js/app.js')
 </body>
 

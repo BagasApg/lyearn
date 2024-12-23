@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('content')
-    <div class="flex justify-center items-center text-center p-8 py-28 w-full max-w-full max-h-screen">
+    <div class="flex justify-center items-center text-center p-8 py-28 w-full max-w-full min-h-screen">
         <div class="card w-[400px] glass">
 
             <div class="card-body">
@@ -28,6 +28,9 @@
                 </div>
                 <div class="login-button">
                     <div class="btn bg-gray-900 text-white w-full btn-md hover:bg-black">Sign In</div>
+                </div>
+                <div class="other-options pt-1">
+                   <p>Don't have account? Better <a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="">register</a> now!</p> 
                 </div>
             </div>
         </div>

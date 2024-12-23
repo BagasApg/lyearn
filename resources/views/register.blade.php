@@ -29,6 +29,9 @@
                 <div class="login-button">
                     <div class="btn bg-gray-900 text-white w-full btn-md hover:bg-black">Sign Up</div>
                 </div>
+                <div class="other-options pt-1">
+                   <p>Already have an account? Maybe try to <a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="">login</a>!</p> 
+                </div>
             </div>
         </div>
     </div>
