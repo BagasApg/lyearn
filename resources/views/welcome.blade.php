@@ -54,7 +54,8 @@
                     data-aos-delay="1500" data-aos-once="true">and still counting...</h1>
             </div>
             <div id="skill-range" class="text-center">
-                
+               <h1 class="text-5xl">This is our skillset</h1> 
+               <div id="skills"></div>
             </div>
         </div>
     </div>
